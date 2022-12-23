@@ -1,0 +1,64 @@
+:root {
+    --main-color: #516654;
+    --secondary-color: #e99898;
+}
+
+.btn {
+    background-color: var(--main-color);
+    color: white;
+}
+
+.btn:hover {
+    background-color: var(--secondary-color);
+    color: white;
+}
+
+.text-main {
+    color: var(--main-color);
+}
+
+.bg-main2 {
+    background-color: var(--secondary-color);
+    color: #fff;
+}
+
+.logo {
+    max-width: 180px;
+}
+
+h1 {
+    color: var(--main-color);
+    font-weight: bolder;
+    font-size: 3.2rem;
+    line-height: 1;
+}
+
+.hero {
+    background-color: rgba(81, 102, 84, 0.2);
+}
+
+.hero-img {
+    max-width: 300px;
+}
+
+.grid-img {
+    max-width: 180px;
+}
+
+.cta {
+    background-color: rgba(81, 102, 84, 0.3);
+}
+
+.btn-cta {
+    width: 100%;
+    padding: 1.2rem 1rem;
+    font-weight: bold;
+}
+
+.features {
+    background-color: #d6c9b5;
+}
+
+.footer {
+    background-color: rgba(81, 102, 84, 0.4);
+}
